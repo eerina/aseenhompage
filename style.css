@@ -206,5 +206,60 @@ section.about .sub_title p {
   height: 280px;
 }
 
-.sub_main .sublocation {
+.sub_main .box_subtop {
+  height: 280px;
+}
+
+.sub_main .box_subtop .txt-warp {
+  position: relative;
+  height: 280px;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 100;
+}
+
+.sub_main .box_subtop .txt-warp .txt-inner {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translate(0, -50%);
+  padding: 0 150px;
+}
+
+.sub_main .box_subtop .txt-warp .txt-inner h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+.sub_main .menu_tab {
+  border-bottom: 1px solid #e3e4e5;
+  height: 70px;
+}
+
+.sub_main .menu_tab ul {
+  max-width: 1080px;
+  margin: 0 auto;
+  font-size: 0;
+  line-height: 0;
+  text-align: center;
+}
+
+.sub_main .menu_tab ul li {
+  min-width: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sub_main .menu_tab ul li h4 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.sub_main .menu_tab ul li h4 a {
+  display: block;
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 70px;
 }
