@@ -183,3 +183,28 @@ section.visual .img img {
 section.about {
   padding: 120px 0;
 }
+<<<<<<< HEAD ======= section.about .sub_title {
+  text-align: center;
+}
+
+section.about .sub_title h3 {
+  font-size: 40px;
+}
+
+section.about .sub_title h3:before {
+  border: 1px solid red;
+}
+
+section.about .sub_title p {
+  font-size: 20px;
+}
+
+/*sam*/
+.sub_main {
+  padding-top: 100px;
+  width: 100%;
+  height: 280px;
+}
+
+.sub_main .sublocation {
+}
