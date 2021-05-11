@@ -281,12 +281,6 @@ section.about .sub_title p {
   font-weight: 600;
   text-transform: uppercase;
 }
-.sub_container .bar {
-  display: block;
-  width: 54px;
-  height: 5px;
-  color: red;
-}
 
 .sub_container p {
   max-width: 1080px;
